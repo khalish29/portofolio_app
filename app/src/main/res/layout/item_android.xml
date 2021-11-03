@@ -6,7 +6,7 @@
     <data>
         <variable
             name="android"
-            type="learn.idn.portfolioapp.data.Portofolio" />
+            type="learn.khalish.portfolioapp.data.Portofolio" />
     </data>
 
     <com.google.android.material.card.MaterialCardView

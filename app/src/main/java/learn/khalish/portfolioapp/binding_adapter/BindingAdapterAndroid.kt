@@ -1,9 +1,9 @@
-package learn.idn.portfolioapp.binding_adapter
+package learn.khalish.portfolioapp.binding_adapter
 
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
-import learn.idn.portfolioapp.data.Portofolio
+import learn.khalish.portfolioapp.data.Portofolio
 
 @BindingAdapter("androidTitle")
 fun TextView.setTitleAndroid(data: Portofolio?) {

@@ -1,4 +1,4 @@
-package learn.idn.portfolioapp.ui
+package learn.khalish.portfolioapp.ui
 
 import android.net.Uri
 import android.os.Bundle
@@ -7,11 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.browser.customtabs.CustomTabsIntent
-import androidx.recyclerview.widget.LinearLayoutManager
-import learn.idn.portfolioapp.R
-import learn.idn.portfolioapp.adapter.RVAndroidAdapter
-import learn.idn.portfolioapp.data.PortofolioData
-import learn.idn.portfolioapp.databinding.FragmentAndroidBinding
+import learn.khalish.portfolioapp.R
+import learn.khalish.portfolioapp.adapter.RVAndroidAdapter
+import learn.khalish.portfolioapp.data.PortofolioData
+import learn.khalish.portfolioapp.databinding.FragmentAndroidBinding
 
 private const val PORTOFOLIO_LINK = "https://www.dzakyhdr.my.id/"
 

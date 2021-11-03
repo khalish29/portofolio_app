@@ -1,4 +1,4 @@
-package learn.idn.portfolioapp.data
+package learn.khalish.portfolioapp.data
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

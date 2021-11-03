@@ -1,6 +1,6 @@
-package learn.idn.portfolioapp.data
+package learn.khalish.portfolioapp.data
 
-import learn.idn.portfolioapp.R
+import learn.khalish.portfolioapp.R
 
 object PortofolioData {
     /**

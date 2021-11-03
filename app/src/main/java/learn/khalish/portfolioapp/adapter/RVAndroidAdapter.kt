@@ -1,12 +1,12 @@
-package learn.idn.portfolioapp.adapter
+package learn.khalish.portfolioapp.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import learn.idn.portfolioapp.R
-import learn.idn.portfolioapp.data.Portofolio
-import learn.idn.portfolioapp.databinding.ItemAndroidBinding
+import learn.khalish.portfolioapp.R
+import learn.khalish.portfolioapp.data.Portofolio
+import learn.khalish.portfolioapp.databinding.ItemAndroidBinding
 
 class RVAndroidAdapter : RecyclerView.Adapter<RVAndroidAdapter.AndroidViewHolder>() {
 

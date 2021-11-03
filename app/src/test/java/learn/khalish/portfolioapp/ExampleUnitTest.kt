@@ -1,4 +1,4 @@
-package learn.idn.portfolioapp
+package learn.khalish.portfolioapp
 
 import org.junit.Test
 

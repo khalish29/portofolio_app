@@ -1,11 +1,11 @@
-package learn.idn.portfolioapp
+package learn.khalish.portfolioapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
-import learn.idn.portfolioapp.databinding.ActivityMainBinding
+import learn.khalish.portfolioapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
