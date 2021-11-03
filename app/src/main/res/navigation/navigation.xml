@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="learn.idn.portfolioapp.ui.ProfileFragment"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/androidFragment"
+        android:name="learn.idn.portfolioapp.ui.AndroidFragment"
+        android:label="android"
+        tools:layout="@layout/fragment_android" />
+    <fragment
+        android:id="@+id/experienceFragment"
+        android:name="learn.idn.portfolioapp.ui.ExperienceFragment"
+        android:label="experience"
+        tools:layout="@layout/fragment_experience" />
+    <fragment
+        android:id="@+id/flutterFragment"
+        android:name="learn.idn.portfolioapp.ui.FlutterFragment"
+        android:label="flutter"
+        tools:layout="@layout/fragment_flutter" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="learn.idn.portfolioapp.ui.SettingFragment"
+        android:label="setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/uiUxFragment"
+        android:name="learn.idn.portfolioapp.ui.UiUxFragment"
+        android:label="ui_ux"
+        tools:layout="@layout/fragment_ui_ux" />
+</navigation>
