@@ -3,6 +3,7 @@ package learn.khalish.portfolioapp.binding_adapter
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
+import coil.load
 import learn.khalish.portfolioapp.data.Portofolio
 
 @BindingAdapter("androidTitle")

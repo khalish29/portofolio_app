@@ -8,31 +8,44 @@
     <fragment
         android:id="@+id/profileFragment"
         android:name="learn.khalish.portfolioapp.ui.ProfileFragment"
-        android:label="profile"
+        android:label="Profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/androidFragment"
         android:name="learn.khalish.portfolioapp.ui.AndroidFragment"
-        android:label="android"
+        android:label="Android"
         tools:layout="@layout/fragment_android" />
     <fragment
         android:id="@+id/experienceFragment"
         android:name="learn.khalish.portfolioapp.ui.ExperienceFragment"
-        android:label="experience"
-        tools:layout="@layout/fragment_experience" />
+        android:label="Experience"
+        tools:layout="@layout/fragment_experience" >
+        <action
+            android:id="@+id/action_experienceFragment_to_experienceDetailFragment"
+            app:destination="@id/experienceDetailFragment" />
+    </fragment>
     <fragment
         android:id="@+id/flutterFragment"
         android:name="learn.khalish.portfolioapp.ui.FlutterFragment"
-        android:label="flutter"
+        android:label="Flutter"
         tools:layout="@layout/fragment_flutter" />
     <fragment
         android:id="@+id/settingFragment"
         android:name="learn.khalish.portfolioapp.ui.SettingFragment"
-        android:label="setting"
+        android:label="Setting"
         tools:layout="@layout/fragment_setting" />
     <fragment
         android:id="@+id/uiUxFragment"
         android:name="learn.khalish.portfolioapp.ui.UiUxFragment"
-        android:label="ui_ux"
+        android:label="UI/UX"
         tools:layout="@layout/fragment_ui_ux" />
+    <fragment
+        android:id="@+id/experienceDetailFragment"
+        android:name="learn.khalish.portfolioapp.ui.ExperienceDetailFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_experience_detail" >
+        <argument
+            android:name="experience"
+            app:argType="learn.khalish.portfolioapp.data.Portofolio" />
+    </fragment>
 </navigation>

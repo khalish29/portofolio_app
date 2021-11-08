@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.browser.customtabs.CustomTabsIntent
+import androidx.recyclerview.widget.LinearLayoutManager
 import learn.khalish.portfolioapp.R
 import learn.khalish.portfolioapp.adapter.RVAndroidAdapter
 import learn.khalish.portfolioapp.data.PortofolioData
@@ -54,7 +55,6 @@ class AndroidFragment : Fragment() {
                 .launchUrl(requireContext(), Uri.parse(PORTOFOLIO_LINK))
         }
     }
-
 
 
 }
